@@ -1,0 +1,79 @@
+/* Lucas Randal Abreu Balderrama */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 110%;
+    height: 50px; 
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px; 
+    height: auto;
+    margin-bottom: 30px;
+}
+ 
+.usuario,
+.senha,
+.acesso {
+
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+button {
+    width: 110%;
+    padding: 10px;
+    background-color: #2faf45;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2faf45;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
